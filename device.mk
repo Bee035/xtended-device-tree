@@ -396,7 +396,12 @@ PRODUCT_COPY_FILES += \
     $(DEVICE_PATH)/configs/sensors/hals.conf:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/hals.conf \
     $(DEVICE_PATH)/configs/sensors/sensor_def_qcomdev.conf:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/sensor_def_qcomdev.conf
 
-# Telephony
+# Spectrum Manager
+PRODUCT_PACKAGES += \
+    init.spectrum.rc \
+    init.spectrum.sh
+
+#Telephony
 PRODUCT_PACKAGES += \
     telephony-ext
 
