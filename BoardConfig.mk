@@ -190,7 +190,6 @@ include vendor/omni/sepolicy/sepolicy.mk
 
 # Treble
 BOARD_PROPERTY_OVERRIDES_SPLIT_ENABLED := true
-PRODUCT_FULL_TREBLE_OVERRIDE := true
 
 # WiFi
 BOARD_HAS_QCOM_WLAN := true
