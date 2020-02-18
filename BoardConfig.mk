@@ -204,6 +204,9 @@ endif
 BOARD_SEPOLICY_VERS := 28.0
 BOARD_SEPOLICY_DIRS += $(DEVICE_PATH)/sepolicy-tmp
 include vendor/omni/sepolicy/sepolicy.mk
+BOARD_SEPOLICY_DIRS += \
+	$(DEVICE_PATH)/sepolicy/vendor \
+	$(DEVICE_PATH)/sepolicy/vendor/msm8953
 
 # Treble
 BOARD_PROPERTY_OVERRIDES_SPLIT_ENABLED := true
