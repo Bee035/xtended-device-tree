@@ -347,6 +347,9 @@ PRODUCT_COPY_FILES += \
 PRODUCT_USES_QCOM_HARDWARE += true
 PRODUCT_BOARD_PLATFORM += msm8937
 
+PRODUCT_COPY_FILES += \
+    $(LOCAL_PATH)/prebuilts/etc/permissions/privapp-permissions.xml:system/etc/permissions/privapp-permissions.xml
+
 # RCS
 PRODUCT_PACKAGES += \
     rcs_service_aidl \
@@ -469,3 +472,7 @@ PRODUCT_COPY_FILES += \
 
 # Inherit common proprietary files
 $(call inherit-product-if-exists, vendor/xiaomi/rolex/rolex-vendor.mk)
+
+# Camera
+PRODUCT_PACKAGES += \
+    Gcam
