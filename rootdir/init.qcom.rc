@@ -84,13 +84,7 @@ on early-boot
     write /sys/bus/msm_subsys/devices/subsys3/restart_level "related"
     write /sys/bus/msm_subsys/devices/subsys4/restart_level "related"
 
-    # Vibrator permissions
-    chown root system /sys/class/timed_output/vibrator/vtg_level
-    chmod 0660 /sys/class/timed_output/vibrator/vtg_level
-
     # XiaomiParts
-    chown system system /sys/devices/virtual/timed_output/vibrator/vtg_level
-    chmod 0660 /sys/devices/virtual/timed_output/vibrator/vtg_level
     chown system system /sys/module/hall/parameters/hall_toggle
     chmod 0660 /sys/module/hall/parameters/hall_toggle
 
