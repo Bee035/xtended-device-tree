@@ -186,7 +186,9 @@ PRODUCT_PACKAGES += \
     libgnss \
     libgnsspps \
     libwifi-hal-ctrl \
-    libjson
+    libjson \
+    libsensorndkbridge \
+    libwifi-hal-ctrl
 
 PRODUCT_COPY_FILES += \
     $(DEVICE_PATH)/gps/etc/flp.conf:$(TARGET_COPY_OUT_VENDOR)/etc/flp.conf \
