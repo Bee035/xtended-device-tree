@@ -104,6 +104,14 @@ on early-boot
     chown root system /sys/android_touch/doubletap2wake
     chmod 0660 /sys/android_touch/doubletap2wake
 
+    # Audio Gain
+    chown system system /sys/kernel/sound_control/headphone_gain
+    chmod 0660 /sys/kernel/sound_control/headphone_gain
+    chown system system /sys/kernel/sound_control/mic_gain
+    chmod 0660 /sys/kernel/sound_control/mic_gain
+    chown system system /sys/kernel/sound_control/earpiece_gain
+    chmod 0660 /sys/kernel/sound_control/earpiece_gain
+
     # Setup final blkio
     # value for group_idle is us
     write /dev/blkio/blkio.weight 1000
