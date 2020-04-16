@@ -17,6 +17,8 @@
 
 DEVICE_PATH := device/xiaomi/rolex
 
+TARGET_LMKD_STATS_LOG := true
+
 # Bootloader
 TARGET_BOOTLOADER_BOARD_NAME := MSM8937
 TARGET_NO_BOOTLOADER := true
