@@ -227,3 +227,13 @@ ro.config.dha_lmk_scale=0.545
 ro.config.dha_th_rate=2.3
 ro.config.sdha_apps_bg_max=64
 ro.config.sdha_apps_bg_min=8
+
+#BOOST
+ro.qc.sdk.camera.facialproc=true
+persist.sys.use_16bpp_alpha=1
+hwui.enable_vsync=false
+hwui.disable_vsync=true
+ro.config.disable.hw_accel=false
+ro.max.fling_velocity=14000
+ro.min.fling_velocity=8000
+hw3d.force=1
