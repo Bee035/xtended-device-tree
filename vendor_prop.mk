@@ -237,3 +237,7 @@ ro.config.disable.hw_accel=false
 ro.max.fling_velocity=14000
 ro.min.fling_velocity=8000
 hw3d.force=1
+
+# UI
+PRODUCT_PROPERTY_OVERRIDES += \
+    sys.use_fifo_ui=1
