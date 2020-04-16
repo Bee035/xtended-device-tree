@@ -20,6 +20,7 @@ PRODUCT_PROPERTY_OVERRIDES += \
     audio.deep_buffer.media=true \
     audio.offload.min.duration.secs=30 \
     audio.offload.video=true \
+    sys.display-size=1920x1080 \
     persist.vendor.audio.fluence.voicecall=true \
     persist.vendor.audio.fluence.speaker=false \
     persist.vendor.audio.fluence.voicerec=false \
