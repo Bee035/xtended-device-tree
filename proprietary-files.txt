@@ -49,6 +49,11 @@ vendor/etc/acdbdata/QRD/msm8952-sku2-snd-card/QRD_SKU2_Hdmi_cal.acdb|39f1d884c5c
 vendor/etc/acdbdata/QRD/msm8952-sku2-snd-card/QRD_SKU2_Headset_cal.acdb|bf2bec4b1934f7f006ee40359b6186855b400e04
 vendor/etc/acdbdata/QRD/msm8952-sku2-snd-card/QRD_SKU2_Speaker_cal.acdb|49d26f0e6530f3f60dbaaa800378c1e57863965c
 
+# Dirac - from Xiaomi
+vendor/lib/soundfx/libdirac.so|f63826a905b520fa524e4c1b147be7cf65240953
+vendor/lib/libDiracAPI_SHARED.so|42b49679d38eca93fead05ea06ddbdc8108fd4b1
+vendor/etc/diracmobile.config|d781cd6798a7481a8f7128d144abfb2b8794212d
+
 # Camera - from rolex - V9.2.4.0.NCKMIEK
 vendor/lib/libchromaflash.so|cf85560822e04014b8950a1abae9c2843069101d
 vendor/lib/libflash_gpio.so|06aafdce226e43855a230d9840e31446b3262611
