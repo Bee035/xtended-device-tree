@@ -23,3 +23,6 @@
 /firmware(/.*)?            u:object_r:firmware_file:s0
 /dsp(/.*)?            u:object_r:dsp_file:s0
 /persist(/.*)?            u:object_r:persist_file:s0
+
+#dolby
+/(vendor|system/vendor)/bin/hw/vendor\.dolby\.hardware\.dms@1\.0-service                     u:object_r:hal_dms_default_exec:s0
