@@ -22,15 +22,12 @@ public class PerformanceTileService extends TileService {
     public void onClick() {
         int currentState = Integer.parseInt(FileUtils.getValue(DeviceSettings.THERMAL_PATH));
 
-        int nextState = 0;
-        if (currentState == 16) {
-            nextState = -1;
+        int nextState;
+        if (currentState == 4) {
+            nextState = 0;
         } else {
-	if (currentState == 4) {
-	nextState = 8;
-	} else {
             nextState = currentState + 1;
-        }}
+        }
 
         Tile tile = getQsTile();
         FileUtils.setValue(DeviceSettings.THERMAL_PATH, nextState);
