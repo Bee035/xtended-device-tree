@@ -1929,3 +1929,22 @@ vendor/firmware/a330_pm4.fw:vendor/firmware/a330_pm4.fw|ae739ea812f9e4462d7bba8b
 # Graphics(adreno308) - from zb555kl - PKQ1.181203.001-16.0200.1907.18-20190817
 vendor/lib/egl/eglsubAndroid.so|cc06179ab6cf16adb9e50aff864a049c541c95cb
 vendor/lib64/egl/eglsubAndroid.so|39c1fbd2103804faea0451e42e9f03b6e3dea027
+
+# MotoDolbyV3
+-app/MotoDolbyV3/MotoDolbyV3.apk
+-product/priv-app/daxService/daxService.apk 
+etc/permissions/com.motorola.dolby.dolbyui.features.xml 
+etc/sysconfig/hiddenapi-whitelist-com.motorola.dolby.dolbyui.xml 
+product/etc/permissions/com.dolby.daxservice.xml 
+vendor/bin/hw/vendor.dolby.hardware.dms@1.0-service 
+vendor/etc/init/vendor.dolby.hardware.dms@1.0-service.rc 
+vendor/etc/dolby/dax-default.xml
+vendor/lib/libdapparamstorage.so 
+vendor/lib/libstagefrightdolby.so
+vendor/lib/vendor.dolby.hardware.dms@1.0.so 
+vendor/lib/soundfx/libswdap.so
+vendor/lib64/libdapparamstorage.so 
+vendor/lib64/libdlbdsservice.so
+vendor/lib64/soundfx/libswdap.so 
+vendor/lib64/vendor.dolby.hardware.dms@1.0-impl.so
+vendor/lib64/vendor.dolby.hardware.dms@1.0.so
