@@ -21,7 +21,7 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/aosp_base_telephony.mk)
 
 # Inherit some common Lineage stuff
 $(call inherit-product, vendor/omni/config/common.mk)
-$(call inherit-product, vendor/omni/config/gsm.mk
+$(call inherit-product, vendor/omni/config/gsm.mk)
 
 # Inherit from rolex device
 $(call inherit-product, $(LOCAL_PATH)/device.mk)
