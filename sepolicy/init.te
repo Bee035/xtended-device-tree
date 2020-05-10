@@ -1,7 +1,3 @@
 allow init sysfs_devices_system_cpu:dir write;
 allow init sysfs:file setattr;
 allow init hal_wifi_supplicant_default:process noatsecure;
-
-allow init vendor_data_file:file lock;
-allow init hal_audio_default:binder call;
-allow init platform_app:binder call;

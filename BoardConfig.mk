@@ -194,8 +194,8 @@ SELINUX_IGNORE_NEVERALLOWS := true
 endif
 
 # SELinux
-BOARD_SEPOLICY_VERS := 28.0
-BOARD_SEPOLICY_DIRS += $(DEVICE_PATH)/sepolicy-tmp
+include device/qcom/sepolicy/sepolicy.mk
+BOARD_SEPOLICY_DIRS += $(DEVICE_PATH)/sepolicy
 
 # Treble
 BOARD_PROPERTY_OVERRIDES_SPLIT_ENABLED := true
